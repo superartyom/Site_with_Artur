@@ -9,6 +9,7 @@ st.set_page_config(
 nav = option_menu(
     menu_title=None,
     options=["Home", "Hakob", "Artur"],
+    icons = [None, None, None],
     default_index=0,
     orientation="horizontal"
 )
